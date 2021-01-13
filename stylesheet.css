@@ -90,20 +90,14 @@ body{
     border: 2px solid #fff;
 }
 .greeting h3{
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Lobster', cursive;
     align-items: center;
     letter-spacing: 2px;
     text-shadow: 2px 1px rgb(218, 184,178);
     line-height: 60px;
 }
-.greeting h2{
-    font-size: 35px;
-    font-family: 'Lobster', cursive;
-    align-items: center;
-    letter-spacing: 2px;
-    text-shadow: 2px 1px rgb(218, 184,178);
-}
+
 .btn-btn{
     padding: 10px;
     border-radius: 40px;
