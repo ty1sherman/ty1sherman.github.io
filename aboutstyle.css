@@ -1,0 +1,125 @@
+.google-font-text{
+    font-family: 'Lobster', cursive;
+}
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background:#1b9bff;
+    transition: .5s;
+}
+
+.divider{
+    height: 50px;
+    width: 100%;
+    background: #fff;
+}
+
+.greet-me{
+    text-align: center;
+    color: #0082e6;
+    font-family: 'Lobster', cursive;
+}
+
+
+/* columns */
+.container .row{
+    min-width: 650px;
+    float:left;
+    width:25%;
+  
+}
+.col-sm-6 img{
+    width: 100%;
+   
+}
+.col-sm-6 h3{
+    text-align: left;
+
+}
+.col-sm-6 p{
+    text-align: left;
+}
+
+.btn-btn{
+    border-radius: 15px;
+    color:#fff;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: rgb(218, 184,178);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .3s
+}
+
+.btn-btn:hover{
+        background-color: rgb(218, 184,178);
+    }
+        @media screen and (max-width:880px){
+            .contact-box{
+                grid-template-columns: 1fr;
+            }
+            .left{
+                height: 200px;
+            }
+        }
+
+
+/* footer */
+.footer-nav{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: #0082e6;
+    overflow: auto;
+    padding: 5px; 
+    color: #fff; 
+
+}
+
+.footer-nav li :visited{
+    color: #fff;
+}
+.footer-nav ul li{  /*display inline */
+    text-decoration: none;
+    display: inline;
+    margin-left:100px;
+    font-family: helvetica;  
+    color:#fff;  
+}
+.footer-nav li a:hover{
+    color: #000;
+    opacity: 0.5;
+    font-size: 18px;
+}
+.footer-nav p{
+    font-family: helvetica;
+    color: #fff;
+}
