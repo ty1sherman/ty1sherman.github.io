@@ -67,7 +67,7 @@ body{
     display: flex;
     min-width: 350px;
     float:left;
-    width:100%; 
+    width:75%; 
 }
 .col-sm-6 img{
     width: 100%;
