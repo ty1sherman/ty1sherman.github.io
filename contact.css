@@ -7,6 +7,46 @@
 .google-font-text{
     font-family: 'Lobster', cursive;
 }
+/* navbar */
+.navbar {
+    position:fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+}
+.navbar-brand img{
+    border-radius: 100%;
+    border: 2px solid #0082E6;
+    margin-left: 10px;
+}
+
+nav ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    display: flex;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background:#1b9bff;
+    transition: .5s;
+}
 
 .body{
     height: 100%;
@@ -118,34 +158,6 @@ h2::after{
             height: 200px;
         }
     }
-
-
-/*  Nav Bar */
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-
-a.active, a:hover{
-    background:#1b9bff;
-    transition: .5s;
-}
-
-/* contact form */
 
 
 
