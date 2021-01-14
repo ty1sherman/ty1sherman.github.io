@@ -178,7 +178,7 @@ h2::after{
 .footer-nav ul li{  /*display inline */
     text-decoration: none;
     display: inline;
-    margin-left:100px;
+    margin-left:50px;
     font-family: helvetica;  
     color:#fff;  
 }
